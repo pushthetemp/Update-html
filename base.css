@@ -187,7 +187,6 @@ div .discription p {
 .horizontal-align {
     display: flex;
     position: relative;
-    left: 25%;
     width: 90px;
 }
 
