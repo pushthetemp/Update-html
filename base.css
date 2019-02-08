@@ -72,7 +72,7 @@ html, body {
 header {
      width: 100%;
      height: 426px;
-     background-image: linear-gradient(rgba(54,67,101,0.43), rgba(54,67,101,0.43)), url(/imgs/city.jpg);
+     background-image: linear-gradient(rgba(54,67,101,0.43), rgba(54,67,101,0.43)), url(city.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
@@ -150,20 +150,20 @@ div .discription p {
 
 
 #img1 {
-    background-image: url(/imgs/Africa.png);
+    background-image: url(Africa.png);
     background-size: cover;
     background-position: top;
 }
 
 
 #img2 {
-    background-image: url(/imgs/Garyvee.png);
+    background-image: url(Garyvee.png);
     background-size: cover;
     background-position: bottom;
 }
 
 #img3 {
-    background-image: url(/imgs/videos-ben.jpg);
+    background-image: url(videos-ben.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
