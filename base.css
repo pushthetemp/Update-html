@@ -77,7 +77,7 @@ html, body {
         width: 70% !important;
         margin: 0 auto;
         height: 430px !important;
-        background-image: linear-gradient(rgba(54,67,101,0.43), rgba(54,67,101,0.43)), url(/imgs/blur-city.jpg) !important;
+        background-image: linear-gradient(rgba(54,67,101,0.43), rgba(54,67,101,0.43)), url(blur-city.jpg) !important;
         background-position: center;
    }
    
@@ -139,20 +139,20 @@ html, body {
     
     
     #img1 {
-        background-image: url(/imgs/Africa.png);
+        background-image: url(Africa.png);
         background-size: cover;
         background-position: top;
     }
     
     
     #img2 {
-        background-image: url(/imgs/Garyvee.png);
+        background-image: url(Garyvee.png);
         background-size: cover;
         background-position: bottom;
     }
     
     #img3 {
-        background-image: url(/imgs/videos-ben.jpg);
+        background-image: url(videos-ben.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
