@@ -62,6 +62,8 @@ body {
 }
 
 
+
+
 html, body {
     font-family: Helvetica, sans-serif; 
     background-color: #F9F8F8;
@@ -71,13 +73,13 @@ html, body {
 
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 500px) {
     
     header {
         width: 70% !important;
         margin: 0 auto;
         height: 430px !important;
-        background-image: linear-gradient(rgba(54,67,101,0.43), rgba(54,67,101,0.43)), url(blur-city.jpg) !important;
+        background-image: linear-gradient(rgba(54,67,101,0.43), rgba(54,67,101,0.43)), url(/imgs/blur-city.jpg) !important;
         background-position: center;
    }
    
@@ -91,6 +93,7 @@ html, body {
     columns: #364365;
     font-size: 12px !important;
     font-weight: 500 !important;
+    line-height: 20px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -102,10 +105,10 @@ html, body {
     .card-item {
         margin: 15px 0 !important;
         height:100%;
-        width: 200px;
+        width: 170px !important;
         display: inline-block;
         text-align: center;
-        padding: 0 10px;
+        padding: 0 12px !important;
         
     }
 
@@ -114,15 +117,15 @@ html, body {
     }
     
     .img {
-        height: 220px !important;
+        height: 160px !important;
         background-color: #9B9A9A;
-        border-radius: 18px 18px 0 0;
+        border-radius: 9px 9px 0 0;
     }
     
     #lable {
         height: 44px;
         box-shadow: 0 1px 3px  #888888;
-        border-radius: 0 0 18px 18px;
+        border-radius: 0 0 9px 9px;
 
         
     
@@ -139,20 +142,20 @@ html, body {
     
     
     #img1 {
-        background-image: url(Africa.png);
+        background-image: url(/imgs/Africa.png);
         background-size: cover;
         background-position: top;
     }
     
     
     #img2 {
-        background-image: url(Garyvee.png);
+        background-image: url(/imgs/Garyvee.png);
         background-size: cover;
         background-position: bottom;
     }
     
     #img3 {
-        background-image: url(videos-ben.jpg);
+        background-image: url(/imgs/videos-ben.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -181,10 +184,40 @@ html, body {
         display: none !important;
     }
     
-    #last-card {
-        margin: 40px 10px 0 !important;
-    }
+
+
+
+/*Articles*/
+
+
+.articles {
+    display: none;
+    clear: both;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 30px;
+    margin: 0 25%;
+    padding: 35px 0;
+
+}
+
+.square {
+    width: auto;
+}
+
+
+
+/*ARTICLES END*/
+
     
+
+
+
+
 
     .horizontal-align {
         display: flex;
@@ -207,17 +240,28 @@ html, body {
 
 }
 
+/*END OF DESKTOP*/
+
+
+
+
+
+
+
+
+/*Mobile*/
 
 
 header {
      width: 100%;
      height: 426px;
-     background-image: linear-gradient(rgba(54,67,101,0.43), rgba(54,67,101,0.43)), url(city.jpg);
+     background-image: linear-gradient(rgba(54,67,101,0.43), rgba(54,67,101,0.43)), url(/imgs/city.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
-
 }
+
+
 
 
 
@@ -249,6 +293,7 @@ span   {
 .description {
     columns: #364365;
     font-size: 12px;
+    
 }
 
 
@@ -256,50 +301,61 @@ span   {
 /*Cards*/
 
 
+
+
 .card-item {
-    margin: 40px 0;
+    margin: 20px 1px; 
     height:100%;
+    width: 98px;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    
+}
+
+#audio {
+    padding: 4px;
 }
 
 .img {
-    height: 125px;
+    height: 78px;
     background-color: #9B9A9A;
-    border-radius: 18px 18px 0 0;
+    border-radius: 9px 9px 0 0;
 }
 
 #lable {
-    height: 44px;
+    height: 23px;
     box-shadow: 0 1px 3px  #888888;
+    border-radius: 0 0 9px 9px;
+}
     
 
-}
 
 
 #lable p {
     color: #F3F3F3;
     text-align: center;
     font-weight: 600;
-    line-height: 40px;
-    
+    line-height: 7px;  
 }
  /*Images*/
 
 
 #img1 {
-    background-image: url(Africa.png);
+    background-image: url(/imgs/Africa.png);
     background-size: cover;
     background-position: top;
 }
 
 
 #img2 {
-    background-image: url(Garyvee.png);
+    background-image: url(/imgs/Garyvee.png);
     background-size: cover;
     background-position: bottom;
 }
 
 #img3 {
-    background-image: url(videos-ben.jpg);
+    background-image: url(/imgs/videos-ben.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -319,6 +375,78 @@ span   {
     background-color: #364365
 }
 
+/*END OF SQUARE BLOCKS*/
+
+
+
+
+
+/*Articles*/
+
+.desk-articles {
+    display: none;
+    clear: both;
+}
+
+.post {
+    padding: 10px 0;
+}
+
+
+.art-item {
+    position: relative;
+    left: 12px;
+    
+}
+
+#art2_3 {
+    display: flex;
+}
+
+.art-item2 {
+    position: relative;
+    padding: 0 12px;
+}
+
+
+.button {
+    background-color: #FFBD00;
+    border: none;
+    color: white;
+    padding: 5px 40px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+#more {
+    position: relative;
+    left: 110px;
+}
+
+
+
+
+
+
+
+/*ARTICLES END*/
+
+
+
+
+
+
+/*Footer*/
 
 .horizontal-align {
     display: flex;
@@ -333,7 +461,7 @@ span   {
 
 
 
-hr {
+.line {
     display: block;
     height: 1px;
     border: 0;
@@ -353,6 +481,7 @@ hr {
     padding: 0;
 }
 
-#last-card {
-    margin: 40px 0 20px 0;
-}
+
+
+/* Resposive site*/
+
