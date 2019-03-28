@@ -95,9 +95,9 @@ ul, li, .men {
   padding: 0 10px 0 0;
 }
 
-.menu {
+.active-menu {
   padding: 5px 0;
-   color: #373737;
+  color: #373737;
 }
 
 .sidenav, #hamburger-nav {
