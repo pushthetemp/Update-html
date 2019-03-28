@@ -202,14 +202,14 @@ ul, li, .men {
 /* Article Image */
 
 #art1 {
-  background-image: url(/imgs/1327.jpg);
+  background-image: url(1327.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #art2 {
-  background-image: url(/imgs/videos-ben.jpg);
+  background-image: url(videos-ben.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
