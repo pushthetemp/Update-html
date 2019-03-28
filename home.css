@@ -1,0 +1,514 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  line-height: 1;
+}
+
+/*my code*/
+
+* {
+  text-decoration: none;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FCFCFC;
+  font-size: 16px;
+}
+
+/* Push Logo*/
+
+.logo {
+  margin: 38px 0 0% 55px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+
+/* Company Title & Tag Line*/
+
+.content-wrapper {
+  margin: auto 15%;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+#main {
+  font-size: 65px;
+  padding: 0px;
+  font-weight: 900;
+}
+
+#sub {
+  font-size: 20px;
+  color: #A5A5A5;
+  font-weight: 100;
+  padding-top: 8px;
+}
+
+/*  /\/\/\Add Triple Image Banner Later/\/\/\ */
+
+/*Menu*/
+
+ul, li, .men {
+  display: inline-block;
+  color: #373737;
+  margin: 10px 0 10px 0;
+  padding: 0 10px 0 0;
+}
+
+.menu {
+  padding: 5px 0;
+}
+
+/* Navn Under Line */
+
+#under-about {
+  background-color: #FFC500;
+  height: 5px;
+  width: 42px;
+  padding: 0;
+  position: relative;
+  top: 30px;
+}
+
+#under-contact {
+  background-color: #FFC500;
+  height: 5px;
+  width: 54.5px;
+  padding: 0;
+  position: relative;
+  top: 30px;
+}
+
+/* Nav Strike Through */
+
+#cross-med {
+  background-color: #373737;
+  height: 5px;
+  width: 50px;
+  padding: 0;
+  position: relative;
+  top: 10px;
+}
+
+#cross-ser {
+  background-color: #373737;
+  height: 5px;
+  width: 65px;
+  padding: 0;
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
+#cross-sto {
+  background-color: #373737;
+  height: 5px;
+  width: 40px;
+  padding: 0;
+  position: relative;
+  top: 10px;
+}
+
+/* /\/\Info Canvas /\/\ */
+
+/*Copy*/
+
+.info-canvas {
+  font-size: 85px;
+  margin: 6% 20% 0 0;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.15em;
+}
+
+/*Yellow Underline*/
+
+.underline {
+  height: 36px;
+  width: 718px;
+  background-color: #FFC500;
+  margin: 20px 0 15% 0;
+}
+
+/* Menu Content Divide */
+
+.nav-content-diivide {
+  margin: 0 0 5% 5%;
+}
+
+/* \/\/\/\/ All Articles \/\/\/\/\*/
+
+.all-articles {
+  margin: 0 5%;
+  padding-bottom: 30px;
+}
+
+/* Article Card */
+
+.card-container {
+  width: 340px;
+  height: 370px;
+  display: inline-block;
+  margin: 50px 25px;
+}
+
+/* /\/\/\ Card Image /\/\/\ */
+
+.card-image {
+  width: inherit;
+  height: 269px;
+}
+
+/* Article Image */
+
+#art1 {
+  background-image: url(/imgs/1327.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#art2 {
+  background-image: url(/imgs/videos-ben.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#art3 {
+  background-image: url(/imgs/bw-arch.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#art4 {
+  background-image: url(/imgs/SpaceX\ shutle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#art5 {
+  background-image: url(/imgs/hmv.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#art6 {
+  background-image: url(/imgs/record\ store.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#art7 {
+  background-image: url(/imgs/startup\ office.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* /\/\/\ Article Label /\/\/\ */
+
+.headline {
+  height: 70px;
+  /*  background-color: #E6E6E6; */
+  padding: 20px 0 0 10px;
+  /*  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2); */
+  border-bottom: 1px solid #FFC500;
+}
+
+.preview {
+  width: 270px;
+  color: #373737;
+}
+
+.articleTitle {
+  font-weight: 800;
+  font-size: 13pt;
+  padding-bottom: 5px;
+}
+
+.prevArticel {
+  font-size: 9pt;
+  padding: 0;
+  line-height: 16px;
+  color: #373737;
+}
+
+/*Footer*/
+
+.social {
+  margin: 15px 10px;
+}
+
+.copyright {
+  padding: 25px 5% 0 0;
+  font-size: 8pt;
+}
+
+.horizontal-align {
+  display: flex;
+  position: relative;
+}
+
+
+/* /\/\ /\/\/\  Tablet (PRO) View (800)/\/\/\/\/\ */
+
+@media only screen and (max-width: 1050px) {
+
+
+}
+
+
+
+
+
+
+/* /\/\ /\/\/\  Mobile View /\/\/\/\/\ */
+
+@media only screen and (max-width: 1000px) {
+  
+  
+  .content-wrapper {
+    margin: 0;
+  }
+
+
+
+
+/* Push Logo*/
+
+.logo {
+  margin: 5px 0 0% 25PX;;
+  position: relative;
+}
+
+.logo img {
+  max-width: 20%;
+  height: auto;
+}
+
+
+.menu {
+  display: none;
+}
+
+
+  .title {
+    margin: 30px 25PX;
+  }
+  
+  #main {
+    font-size: 18pt;
+    padding: 0px;
+    font-weight: 900;
+  }
+  
+  #sub {
+    font-size: 12px;
+    color: #A5A5A5;
+    font-weight: 100;
+    padding-top: 8px;
+  }
+
+
+
+  /* /\/\Info Canvas /\/\ */
+  /*Copy*/
+  .info-canvas {
+    font-size: 3em;
+    width: 78%;
+    margin: 5px 0 0 0;
+    padding-left: 25px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.15em;
+  }
+
+  div.info-canvas{
+    margin: 0;
+    margin-left: 0;
+  }
+  /*Yellow Underline*/
+  .underline {
+    height: 16px;
+    width: 232px;
+    background-color: #FFC500;
+    margin: 5px 0 15% 0;
+  }
+  /* Menu Content Divide */
+  .nav-content-diivide {
+    margin: 0 0 5% 5%;
+  }
+  /* All Article*/
+  .all-articles {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+    
+  }
+  /* Article Card */
+  .card-container {
+    width: 340px;
+    height: 370px;
+    display: inline-block;
+    margin: 0 0 50px 20px;
+    background-position: center;
+  }
+
+
+
+
+
+
+/*Footer*/
+
+.social {
+  margin: 15px 10px;
+  display: none;
+}
+
+.copyright {
+  padding: 25px 5% 0 0;
+  font-size: 8pt;
+}
+
+.horizontal-align {
+  display: flex;
+  position: relative;
+  display: none;
+}
+
+}
+
+/* /\/\/\/ Mobile View (min iPhone 5/SE) /\/\/\/\ */
+
+@media only screen and (max-width: 330px) {
+  .content-wrapper {
+    margin: 0;
+  }
+
+
+/* Push Logo*/
+
+.logo {
+  margin: 5px 0 0% 8%;
+  position: relative;
+}
+
+.logo img {
+  max-width: 20%;
+  height: auto;
+}
+
+
+.title {
+  margin: 30px 8%;
+}
+
+#main {
+  font-size: 18pt;
+  padding: 0px;
+  font-weight: 900;
+}
+
+#sub {
+  font-size: 12px;
+  color: #A5A5A5;
+  font-weight: 100;
+  padding-top: 8px;
+}
+
+  /* \/\/\/\/ All Articles \/\/\/\/\*/
+  .all-articles {
+    padding: 0;
+  }
+  /* Article Card */
+  .card-container {
+    width: 340px;
+    height: 370px;
+    margin: 0;
+  }
+  /* /\/\Info Canvas /\/\ */
+  /*Copy*/
+  .info-canvas {
+    font-size: 2.5em;
+    width: 75%;
+    margin: 0;
+    padding-left: 25px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.15em;
+  }
+  /* Menu Content Divide */
+  .menu {
+    display: none;
+  }
+  /* All Article*/
+  .all-articles {
+    display: inline-block;
+    margin: 0;
+  }
+  /* Article Card */
+  .card-container {
+    width: 280px;
+    height: 350px;
+    display: inline-block;
+    margin: 0 0 10px 20px;
+    background-position: center;
+  }
+
+  /* /\/\/\ Card Image /\/\/\ */
+
+.card-image {
+  width: inherit;
+  height: 269px;
+}
+
+
+
+}
