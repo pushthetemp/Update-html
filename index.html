@@ -6,194 +6,196 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Push Home</title>
-    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/mobile-nav.css">
+    <link rel="icon" href="/imgs/XD img.png" type="image/gif" sizes="16x16">
 </head>
 
 <body>
+    <!-- Movbile view side nav-->
 
-    <div class="main-container">
+    <Nav id="mobile-nav">
 
-        <header class="banner">
-            <menu></menu>
-            <div class="vertical-container">
-                <h1 class="title">
-                    Push<br>
-                    <span id="subtitle">The Tempo</span>
-                </h1>
+        <ul id="mySidenav"  class="sidenav" >
+            <li> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+            <li>
+                <div id="mob-under-about"></div><a href="about.html" class="active-menu">About</a>
+            </li>
+            <li>
+                <div id="mob-under-contact"></div><a href="#" class="active-menu">Contact</a>
+            </li>
+        </ul>
+    </Nav>
+    <header class="logo">
+        <a href="index.html" class="refresh">
+            <img src="/imgs/XD img.png" alt="Push Logo">
+        </a>
+    </header>
+
+
+
+
+    <div class="content-wrapper">
+            <span id="hamburger-nav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <Section class="hero-section">
+            <div class="title">
+                <h1 id="main">Push The Tempo</h1>
+                <h2 id="sub">Bring different. Push different</h2>
             </div>
-            <!--
-            <div class="cover">
-            </div> -->
-        </header>
 
-        <div class="content-wrapper">
-            <section class="copy">
-                <div class="description">
-                    <p>
-                        Welcome to Push The tempo (we just call it PUSH). A brand marketing company specialising in immersive communication, brining difference to a world of sameness. <br><br>
+            <Nav class="menu">
+                <ul>
+                    <li>
+                        <div id="under-about"></div><a href="about.html" class="active-menu">About</a>
+                    </li>
+                    <li>
+                        <div id="under-contact"></div><a href="#" class="active-menu">Contact</a>
+                    </li>
+                    <li>
+                        <div id="cross-med"></div>Media
+                    </li>
+                    <li>
+                        <div id="cross-ser"></div>Services
+                    </li>
+                    <li>
+                        <div id="cross-sto"></div>Store
+                    </li>
+                </ul>
+            </Nav>
 
-                        We're not quite ready yet. until then, we'll keep you posted on when it's all system go.<br><br>
-                    </p>
+
+
+
+            <div class="info-canvas">
+                <h1>
+                    This is a canvas. We will use this instead of constant banner images. OK? Cool.
+                </h1>
+                <div class="underline"></div>
+            </div>
+        </Section>
+
+
+        <main>
+
+            <div class="all-articles">
+
+                <div class="card-container">
+                    <div class="card-image" id="art1"></div>
+                    <div class="headline">
+                        <a href="welcome_article.html" class="article-link">
+                            <div class="preview">
+                                <h2 class="articleTitle">A welcome note</h2>
+                                <p class="prevArticel">Hello, salut, insert relevant language of your choice. Thank you
+                                    for stopping by...</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </section>
-
-            <hr class="line" />
-
-
-            <main>
-                <div class="cards">
-                    <div class="card-item">
-                        <div class="img" id="img1">
-                            <img src="" alt="">
-                        </div>
-                        <div class="lable1" id="lable">
-                            <p> News</p>
-                        </div>
+                <div class="card-container">
+                    <div class="card-image" id="art2"></div>
+                    <div class="headline">
+                        <a href="fb_immersion_article.html" class="article-link">
+                            <div class="preview">
+                                <h2 class="articleTitle">Facebook immersion</h2>
+                                <p class="prevArticel">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                    ipsa
+                                    itaque
+                                    unde dolore.</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="card-item" id="audio">
-                        <div class="img" id="img2">
-                            <img src="" alt="">
-                        </div>
-                        <div class="lable2" id="lable">
-                            <p> Audio </p>
-                        </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-image" id="art3"></div>
+                    <div class="headline">
+                        <a href="architecture_article.html" class="article-link">
+                            <div class="preview">
+                                <h2 class="articleTitle">Learning for architects</h2>
+                                <p class="prevArticel">Retail is in decline, well, so they say. But why do they say
+                                    this though?</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="card-item" id="last-card">
-                        <div class="img" id="img3">
-                            <img src="" alt="">
-                        </div>
-                        <div class="lable3" id="lable">
-                            <p> Video</p>
-                        </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-image" id="art5"></div>
+                    <div class="headline">
+                        <a href="360-brand-prt1_article.html" class="article-link">
+                            <div class="preview">
+                                <h2 class="articleTitle">HMV in need of a revival?</h2>
+                                <p class="prevArticel">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                    ipsa
+                                    itaque
+                                    unde dolore.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-image" id="art6"></div>
+                    <div class="headline">
+                        <a href="future-store_article.html" class="article-link">
+                            <div class="preview">
+                                <h2 class="articleTitle">The future store</h2>
+                                <p class="prevArticel">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                    ipsa
+                                    itaque
+                                    unde dolore.</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
 
-
-                <!-- Articles -->
-
-                <section class="articles">
-
-                    <div class="post" id="art1">
-                        <a href="article_fb.html" class="art-item">
-                            <img src="tracks.png" alt="">
-                            <div class="title">
-                                <p></p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="post" id="art2_3">
-                        <a href="" class="art-item2">
-                            <img src="bw building.png" alt="">
-                            <div class="title">
-                                <p></p>
-                            </div>
-                        </a>
-                        <a href="" class="art-item2">
-                            <img src="bw street.png" alt="">
-                            <div class="title">
-                                <p></p>
-                            </div>
-                        </a>
-                    </div>
-
-
-                    <div class="post" id="art4">
-                        <a href="" class="art-item">
-                            <img src="water.png" alt="">
-                            <div class="title">
-                                <p></p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!--
-                    <button class="button" id="more">
-                        More
-                    </button>
-                -->
-
-                </section>
-
-
-
-                <section class="desk-articles">
-                    <div class="wrapper">
-                        <div class="square" id="one">
-                            <a href="article_fb.html">
-                                <img src="desk-bw.png" alt="">
-                                <div class="title">
-                                    <p></p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="square" id="two">
-                            <a href="">
-                                <img src="/imgs/desk-rocks.png" alt="">
-                                <div class="title">
-                                    <p></p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="square" id="three">
-                            <a href="">
-                                <img src="desk-track.png" alt="">
-                                <div class="title">
-                                    <p></p>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="square" id="four">
-                            <a href="" class="four">
-                                <img src="desk-water.png" alt="">
-                                <div class="title">
-                                    <p></p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                </section>
-
-
-
-
-
-
-                <hr class="low-line" />
-
-                <footer class="bottom-container">
-                    <div class="horizontal-align">
-                        <div class="social">
-                            <a href="https://bit.ly/2RN0TL2" target="_blank"><img src="twitter.png" id="soc-med"></a>
-                        </div>
-
-                        <div class="social">
-                            <a href="https://bit.ly/2Bq5s90" target="_blank"><img src="instagram.png" id="soc-med"></a>
-                        </div>
-
-                        <div class="social">
-                            <a href="https://bit.ly/2St0Ybx" target="_blank"><img src="facebook.png" id="soc-med"></a>
-                        </div>
-
-                        <div class="social">
-                            <span id="siteseal">
-                                <script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=Zvh1e7Bk9LtQY8dFxIU7YrWxUDA5bI9Rh7VFGK72qBDB0PDCCa16qcU6VXcY"></script></span>
-                        </div>
-                    </div>
-        </div>
-
-        </footer>
-
+            </div>
 
 
 
         </main>
+
+        <footer class="bottom-container">
+            <div class="horizontal-align">
+                <div class="copyright">
+                    <p>&copy;Push The Tempo 2019</p>
+                </div>
+                <!--
+                <div class="social">
+                    <a href="https://bit.ly/2RN0TL2" target="_blank"><img src="/imgs/twitter.png" id="soc-med"></a>
+                </div>
+
+                <div class="social">
+                    <a href="https://bit.ly/2Bq5s90" target="_blank"><img src="/imgs/instagram.png" id="soc-med"></a>
+                </div>
+
+                <div class="social">
+                    <a href="https://bit.ly/2St0Ybx" target="_blank"><img src="/imgs/facebook.png" id="soc-med"></a>
+                </div>
+            -->
+                <div class="social">
+                    <span id="siteseal">
+                        <script async type="text/javascript"
+                            src="https://seal.godaddy.com/getSeal?sealID=Zvh1e7Bk9LtQY8dFxIU7YrWxUDA5bI9Rh7VFGK72qBDB0PDCCa16qcU6VXcY"></script>
+                    </span>
+                </div>
+            </div>
+        </footer>
     </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+
+
+
 
 
 
