@@ -216,35 +216,35 @@ ul, li, .men {
 }
 
 #art3 {
-  background-image: url(/imgs/bw-arch.jpg);
+  background-image: url(bw-arch.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #art4 {
-  background-image: url(/imgs/SpaceX\ shutle.jpg);
+  background-image: url(SpaceX\ shutle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #art5 {
-  background-image: url(/imgs/hmv.jpg);
+  background-image: url(hmv.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #art6 {
-  background-image: url(/imgs/record\ store.jpg);
+  background-image: url(record\ store.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #art7 {
-  background-image: url(/imgs/startup\ office.jpg);
+  background-image: url(startup\ office.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
