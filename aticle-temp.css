@@ -188,7 +188,7 @@ html, body {
 /* Article Image */
 
 #art1 {
-  background-image: url(/imgs/record\ store.jpg);
+  background-image: url(record\ store.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -196,14 +196,14 @@ html, body {
 
 
 #art2 {
-  background-image: url(/imgs/sing-night.jpg);
+  background-image: url(sing-night.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #art3 {
-  background-image: url(/imgs/bw-arch.jpg);
+  background-image: url(bw-arch.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
