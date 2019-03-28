@@ -97,6 +97,7 @@ ul, li, .men {
 
 .menu {
   padding: 5px 0;
+   color: #373737;
 }
 
 /* Navn Under Line */
@@ -179,7 +180,7 @@ ul, li, .men {
 /* \/\/\/\/ All Articles \/\/\/\/\*/
 
 .all-articles {
-  margin: 0 5%;
+  margin: 0;
   padding-bottom: 30px;
 }
 
