@@ -100,6 +100,10 @@ ul, li, .men {
    color: #373737;
 }
 
+.sidenav, #hamburger-nav {
+  display: none;
+}
+
 /* Navn Under Line */
 
 #under-about {
@@ -310,7 +314,7 @@ ul, li, .men {
 
 /* /\/\ /\/\/\  Mobile View /\/\/\/\/\ */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   
   
   .content-wrapper {
