@@ -15,4 +15,4 @@
     mail($mailTo, $subject, $txt, $headers);
     header("Location: contacrt.php?mailsend");
 }
-?>
+
