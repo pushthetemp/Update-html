@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+/* Banner Images */
+.banner-left {
+    height: 100vh;
+    width: 50%;
+    float: right;
+
+}
+
+.cover-image {
+    height: 100%;
+    width: 100%;
+    background-image: url(/imgs/1329.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+.logo {
+    margin: 38px 0 0% 55px;
+  }
+  
+
+/* Contact */
+
+.contact {
+    height: 100vh;
+    width: 50%;
+    background-color: #161615;
+    
+}
+
+.copy-container {
+    width: 380px;
+    margin: 0 auto;
+}
+
+#title {
+    font-size: 25pt;
+    color: #FFC500;
+    font-weight: 800;
+}
+
+#message {
+    font-size: 16pt;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+/* Form */
+#fname, #lname {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+}
+
+#lname {
+    float: right;
+    border-left: 3px solid #FFC500;
+}
+
+
+#email, #mobile, #bloodtype, #subject, textarea{
+    width: 400px;
+    padding: 12px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+
+
+  input[type=submit] {
+    background-color: #FFC500;
+    color: #161615;
+    padding: 12px 60px;
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .form {
+      width: 400px;
+      display: flex;
+
+  }
+
+
+
+
+
+
+
+
+/*Footer*/
+.bottom-container {
+    background-color: #FFC500;
+    width: 100%;
+    height: 60px;
+}
+
+.social {
+    margin: 18px 10px;
+  }
+  
+  .copyright {
+    padding: 18px 25px 0 55px;
+    font-size: 8pt;
+  }
+  
+  .horizontal-align {
+    display: flex;
+    position: relative;
+    height: 60px;
+  }
