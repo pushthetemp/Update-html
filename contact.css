@@ -16,7 +16,7 @@ html, body {
 .cover-image {
     height: 100%;
     width: 100%;
-    background-image: url(/imgs/1329.jpg);
+    background-image: url(1329.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
