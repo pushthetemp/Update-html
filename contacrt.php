@@ -1,9 +1,6 @@
 <?php
-
- if (isset($_POST['submit'])) {
     $firstName = $_POST['firstname'];
     $lastName = $_POST['lastname'];
-    $mobile = $_POST['mobile'];
     $mailFrom = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
@@ -13,6 +10,7 @@
     $txt = "You have recieved an emailfrom".$firstName.".\n\n". $message;
 
     mail($mailTo, $subject, $txt, $headers);
-    header("Location: contact.htmlmailsend");
+    header("Location: contact.html");
 }
+?>
 
