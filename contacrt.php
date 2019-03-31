@@ -13,6 +13,6 @@
     $txt = "You have recieved an emailfrom".$firstName.".\n\n". $message;
 
     mail($mailTo, $subject, $txt, $headers);
-    header("Location: contacrt.php?mailsend");
+    header("Location: contact.html?mailsend");
 }
 
