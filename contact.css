@@ -6,6 +6,25 @@ html, body {
 }
 
 /* Banner Images */
+
+.banner-left {
+  height: 100vh;
+  width: 100vw;
+  float: right;
+
+}
+
+.cover-image {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(7, 7, 7, 0.342), rgb(12, 12, 12)), url(/imgs/1329.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} 
+
+/*
+
 .banner-left {
     height: 100vh;
     width: 50%;
@@ -16,7 +35,7 @@ html, body {
 .cover-image {
     height: 100%;
     width: 100%;
-    background-image: url(1329.jpg);
+    background-image: url(/imgs/1329.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,7 +46,7 @@ html, body {
   }
   
 
-/* Contact */
+
 
 .contact {
     height: 100vh;
@@ -36,9 +55,13 @@ html, body {
     
 }
 
+*/
+/* Contact */
 .copy-container {
     width: 380px;
-    margin: 0 auto;
+    margin: 0 10%;
+    position: relative;
+    top: 50vh;
 }
 
 #title {
@@ -50,8 +73,9 @@ html, body {
 #message {
     font-size: 16pt;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
 }
+
 
 
 
@@ -111,7 +135,7 @@ html, body {
 
 /*Footer*/
 .bottom-container {
-    background-color: #FFC500;
+    background-color: rgb(12, 12, 12);
     width: 100%;
     height: 60px;
 }
@@ -123,6 +147,7 @@ html, body {
   .copyright {
     padding: 18px 25px 0 55px;
     font-size: 8pt;
+    color: #FFC500;
   }
   
   .horizontal-align {
