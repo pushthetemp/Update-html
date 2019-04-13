@@ -5,6 +5,15 @@ html, body {
     height: 100%;
 }
 
+
+.logo {
+  margin: 38px 0 0% 55px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+
+
 /* Banner Images */
 
 .banner-left {
